@@ -1,5 +1,5 @@
 {% set name = "chemnlp" %}
-{% set version = "2023.3.4" %}
+{% set version = "2023.7.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/chemnlp-{{ version }}.tar.gz
-  sha256: 071b68f37ea3f121ea7b48bd3669a9be802e4cc624185a13de0f659e459ac6ba 
+  sha256: ee6bf0731d5334105d990aec4584d556bd2e8e9b738ea1d54c395da9ebb90018
 
 build:
   number: 0
